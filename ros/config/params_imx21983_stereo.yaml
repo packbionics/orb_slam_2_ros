@@ -1,0 +1,24 @@
+
+orb_slam2_stereo:
+  ros__parameters:
+    publish_pointcloud: true
+    publish_pose: true
+    localize_only: false
+    reset_map: false
+    load_map: false
+    map_file: "map.bin"
+    pointcloud_frame_id: "map"
+    camera_frame_id: "camera_link"
+    min_num_kf_in_map: 2
+    ORBextractor/nFeatures: 2000
+    ORBextractor/scaleFactor: 1.2
+    ORBextractor/nLevels: 8
+    ORBextractor/iniThFAST: 20
+    ORBextractor/minThFAST: 7
+    camera_fps: 20
+    camera_rgb_encoding: false
+    ThDepth: 50.0
+    depth_map_factor: 1.0
+    camera_baseline: 27.46404606
+    load_calibration_from_cam: true
+

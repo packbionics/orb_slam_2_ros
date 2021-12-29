@@ -28,7 +28,7 @@ def generate_launch_description():
             'params_file',
             default_value=os.path.join(
                 get_package_share_directory("orb_slam2_ros"),
-                'ros', 'config', 'params_t265_stereo.yaml'),
+                'ros', 'config', 'params_imx21983_stereo.yaml'),
             description='Full path to the ROS2 parameters file to use for all launched nodes'),
 
         DeclareLaunchArgument(
